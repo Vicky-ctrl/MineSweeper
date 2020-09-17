@@ -1,0 +1,143 @@
+#id-div-mime {
+    width: 470px;
+    height: 470px;
+    margin: 25px auto 25px;
+    border: #BBB1C1 4px inset;
+    padding: 10px;
+    background-color: #2E2831;
+    position: relative;
+    line-height: 30px;
+}
+.cell {
+    font-size: 0px;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 2px;
+    border: #BBB1C1 2px outset;
+    vertical-align: middle;
+}
+
+.cell:hover {
+    cursor: pointer;
+
+}
+
+.cell-opened {
+    font-size: 14px;
+    font-family: Arial Verdana;
+    color: #BBB1C1;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 2px;
+    border: #BBB1C1 2px inset;
+}
+
+.cell-blank {
+    font-size: 0px;
+    background-color: #BBB1C1;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 2px;
+    border: #BBB1C1 2px inset;
+}
+
+.cell-mine {
+    font-size: 0px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 2px;
+    background: url('img/mine.png') center center;
+    background-size: 40px 40px;
+    border: #BBB1C1 2px inset;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background-img {
+    width: auto;
+    height: 700px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 30px;
+    background: url('img/dinner.gif') ;
+    position: relative;
+}
+
+.lattice {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    border: #BBB1C1 2px outset;
+}
+
+.map-vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.sweeper{
+    font-size: 0px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 2px;
+    background: url('img/sweeper.png');
+    background-size: 40px 40px;
+    border: #BBB1C1 2px inset;
+}
+
+.sweeper:hover {
+    cursor: pointer;
+}
+
+#score {
+    font-size: 14px;
+    color: #BBB1C1;
+    width: 100px;
+    height: 10px;
+    margin: 0px 50px 0px 20px;
+    padding: 10px;
+    background-color: #2E2831;
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+}
+
+#countdown {
+    font-size: 14px;
+    color: #BBB1C1;
+    width: 100px;
+    height: 10px;
+    margin: 0px 20px 0px 50px;
+    padding: 10px;
+    background-color: #2E2831;
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+}
+
+#start {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px 0px 10px;;
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    background: url('img/mine.png');
+    background-size: 25px 25px;
+}
+
+
+
